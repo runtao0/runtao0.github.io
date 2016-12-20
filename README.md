@@ -40,6 +40,25 @@ Not quite sure about the file structure yet...?
 
 
 **Implementation Timeline**
+Day 1: work on blender models and have all the node set up done
+1. have canvas set up on page,
+2. work out controls and flow of the game
+3. familiarize self with WebGL
+4. work on laser/shooting elements
+
+Day 2: work on blender models and begin physics in WebGL
+1. have test models for physics testing
+2. continue work on control flow
+3. set up camera and lasers
+
+Day 3: Import blender models and link with WebGL
+1. make sure the WebGL and blender models work
+2. tweek the visuals and mood as needed
+
+Day 4: style style style
+1. have adequate styling of the home page
+2. make sure controls work 
 
 **Bonus Features**
-honestly the flower section may end up being a bonus
+honestly the flower section may end up being a bonus but if there is time I
+would work on adding sound features
