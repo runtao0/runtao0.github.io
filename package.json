@@ -1,0 +1,28 @@
+{
+  "name": "mellow_meadow",
+  "version": "1.0.0",
+  "description": "**Background** Mellow Meadow is a 3D interactive environment. The main setting is in an (infinite?) flower meadow with various types flowers (for just a line of plotted flowers if it take too much time) that sway in the wind. The player floats through this meadow and can examine the flowers. Everything will be rendered with the WebGL library on Canvas and HTML5, maybe also using some blender models. Inspired by the game in Magic School Bus episode 48, \"Magic School Bus Makes a Stink\".",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runtao0/mellow_meadow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runtao0/mellow_meadow/issues"
+  },
+  "homepage": "https://github.com/runtao0/mellow_meadow#readme"
+}
