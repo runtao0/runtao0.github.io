@@ -2,3 +2,4 @@ node_modules/
 .DS_Store
 lib/bundle.js
 lib/bundle.js.map
+voxel_painter.html
