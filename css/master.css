@@ -1,0 +1,11 @@
+#start_button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: transparent;
+  font-family: sans-serif;
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin: 10px;
+  color: white;
+}
