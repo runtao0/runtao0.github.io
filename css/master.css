@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 ul {
   position: fixed;
   top: 0;
@@ -16,4 +20,19 @@ button {
   font-size: 16px;
   line-height: 16px;
   width: 100%;
+}
+
+h1 {
+  position: absolute;
+  font-size: 24px;
+  float: left;
+  margin: 20px 20px;
+}
+
+p {
+  position: absolute;
+  float: left;
+  font-size: 12px;
+  bottom: 0;
+  margin: 20px 20px;
 }
