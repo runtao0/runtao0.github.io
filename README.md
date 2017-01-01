@@ -10,9 +10,9 @@ My Game of life is a 3D voxel painter and [Conway's Game of Life] (https://en.wi
 ###**Initial Pattern Creation**
 
 The initial phase of the game prompts to user to create an initial pattern on a 50X50 grid. The user may create voxels by moving the cursor for position and clicking to create the box. The user can also delete boxes while holding down the shift button and clicking existing boxes.
-[Alt text](./images/user_creation.png?raw=true "User creations")
+[Alt text](images/user_creation.png?)
 Furthermore, four preset patterns are available to the user via buttons on the right of the page. These are the Glider Gun, Cross, and Garden of Eden patterns, as well as a random initialization of voxels.
-[Alt text](./images/glider_gun.png)
+[Alt text](images/glider_gun.png)
 Adding these patterns will not affect pre-existing voxels created by the user, but will replace previously selected preset patterns. Users can also add more voxels or subtract from preset patterns.
 
 ###**When Life Begins**
