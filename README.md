@@ -1,14 +1,11 @@
-#**Mellow Meadow**
+#**Runtao's 3D Game of Life**
 
 **Background**
-Mellow Meadow is a 3D interactive environment. The main setting
-is in an (infinite?) flower meadow with various types flowers (for just a line of plotted
-flowers if it take too much time) that sway in the wind. The player floats
-through this meadow and can examine the flowers. Everything will be rendered with the WebGL
-library on Canvas and HTML5, maybe also using some blender models.
-Inspired by the game in Magic School Bus episode 48, "Magic School Bus Makes a Stink".
+My Game of life is a 3D voxel painter and [Conway's Game of Life] (https://en.wikipedia.org/wiki/Conway's_Game_of_Life) simulation.
 
-**Functionality/MVP's**
+
+
+<!-- **Functionality/MVP's**
 - [ ] 3D models of smell molecules and flowers with display pages
 - [ ] Camera is controlled by keypresses
 - [ ] Zoom is available
@@ -21,7 +18,7 @@ ind addition, the game with include:
 **Wireframes**
 The game will include a sidebar list of all molecules, and a toggle button that
 switches between views
-![Alt text](./Smell_blaster_wireframe.png?raw=true "Wireframe")
+[Alt text](./Smell_blaster_wireframe.png?raw=true "Wireframe")
 
 **Technologies**
 This project will implement the following technologies:
@@ -61,4 +58,4 @@ Day 4: style style style
 
 **Bonus Features**
 honestly the flower section may end up being a bonus but if there is time I
-would work on adding sound features
+would work on adding sound features -->
