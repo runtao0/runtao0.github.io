@@ -1,5 +1,5 @@
 #**Runtao's 3D Game of Life**
-Live: [Runtao's Game of Life](runtao0.github.io/runtaos_life)
+Live: [Runtao's Game of Life](https://runtao0.github.io/runtaos_life/)
 
 ##**What is it?**
 
