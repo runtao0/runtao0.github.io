@@ -3,7 +3,7 @@ Live: [Runtao's Game of Life](https://runtao0.github.io/runtaos_life/)
 
 ##**What is it?**
 
-My Game of life is a 3D voxel painter and [Conway's Game of Life] (https://en.wikipedia.org/wiki/Conway's_Game_of_Life) simulation. Each cell is a voxel, but the Life2333 rules still apply, with the Z-axis representing time, with each discrete layer being a generation in the game. This game was created with Javascript using the Three.js library (including raycasting Detector.js and TrackballControls.js), running on WebGL.
+My Game of life is a 3D voxel painter and [Conway's Game of Life] (https://en.wikipedia.org/wiki/Conway's_Game_of_Life) simulation. Each cell is a voxel, but the Life2333 rules still apply, with the Z-axis representing time, and each discrete layer being a generation in the game. This game was created with JavaScript using the Three.js library (including raycasting, Detector, and TrackballControls), running on WebGL.
 
 ##**Features and Implementation**
 
