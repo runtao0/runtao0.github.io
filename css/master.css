@@ -32,7 +32,11 @@ h1 {
 p {
   position: absolute;
   float: left;
-  font-size: 12px;
-  bottom: 0;
+  font-size: 16px;
+  top: 50px;
   margin: 20px 20px;
+}
+
+strong {
+  color: rgb(218, 236, 254);
 }
