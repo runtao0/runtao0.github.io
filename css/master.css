@@ -28,12 +28,20 @@ h1 {
   float: left;
   margin: 20px 20px;
 }
+h2 {
+  color: rgb(218, 236, 254);
+  position: absolute;
+  top: 30px;
+  font-size: 24px;
+  float: left;
+  margin: 20px 20px;
+}
 
 p {
   position: absolute;
   float: left;
   font-size: 16px;
-  top: 50px;
+  top: 80px;
   margin: 20px 20px;
 }
 
