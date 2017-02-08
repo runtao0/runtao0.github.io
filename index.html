@@ -14,22 +14,26 @@
   <body onload="start()">
     <h1>Welcome to the Runtao's Game of Life</h1>
     <h2><a href="http://github.com/runtao0/runtaos_life/">Source Code<a/></h2>
-    <p>This is a 3D implementation of <strong>Conway's Game of Life</strong> with 2333 rules.<br/>
-       This grid is 50x50 and each voxel represents a live cell. <br/>
-       <strong>Click</strong> on the grid to make a pattern, or, choose from the preset and augment.<br/>
-       Press <strong>SHIFT</strong> and click to remove a block, and press <strong>Start!</strong> see life grow! <br/>
-       Once you begin you can use the mouse to explore: <br/>
+    <p>This is a 3D implementation of <strong><a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway's Game of Life</a></strong> with 2333 rules.<br/>
+       This grid is 100x100 and each voxel represents a live cell. <br/>
+       <strong>Click</strong> on the grid to make a pattern, <br/>
+       Or choose from the preset list in the <strong>right</strong> and augment.<br/>
+       Press <strong>SHIFT</strong> and click to remove a block, <br/>
+       Press <strong>Start!</strong> see life grow! <br/>
+       Once you begin you can, <br/>
+       1. <strong>Pause!</strong> <br/>
+       2. Use the mouse to explore: <br/>
        <strong>left click</strong> to change viewing angle, <br/>
        <strong>middle scroll</strong> for zoom, <br/>
        and <strong>right click</strong> to change position
      </p>
     <ul>
-      <li><button id="start_button">Start!</button></li>
-      <li><button id="glider_gun">Glider Gun!</button></li>
-      <li><button id="cross">Cross!</button></li>
-      <li><button id="garden">Garden of Eden!</button></li>
-      <li><button id="random">Random!</button></li>
-      <li><button id="restart" onClick="window.location.reload()">Restart!</button></li>
+      <li><button id="start_button" class="green">Start!</button></li>
+      <li><button id="glider_gun">Glider Gun</button></li>
+      <li><button id="cross">Cross</button></li>
+      <li><button id="garden">Garden of Eden</button></li>
+      <li><button id="random">Random</button></li>
+      <li><button id="restart" onClick="window.location.reload()">Reload</button></li>
     </ul>
 
 </body>

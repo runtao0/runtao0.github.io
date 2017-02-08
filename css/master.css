@@ -48,3 +48,12 @@ p {
 strong {
   color: rgb(218, 236, 254);
 }
+
+.red {
+  color: rgb(252, 204, 204);
+  border: 1px solid rgb(251, 119, 119);
+}
+.green {
+  color: rgb(181, 250, 188);
+  border: 1px solid rgb(98, 252, 67);
+}
