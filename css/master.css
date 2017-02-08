@@ -2,6 +2,10 @@ body {
   position: relative;
 }
 
+header {
+  position: absolute;
+}
+
 ul {
   position: fixed;
   top: 0;
@@ -17,31 +21,23 @@ li {
 button {
   padding: 5px 10px;
   border: 1px solid white;
-  font-size: 16px;
-  line-height: 16px;
   width: 100%;
+  font-size: 100%;
 }
 
 h1 {
-  position: absolute;
-  font-size: 24px;
-  float: left;
+  font-size: 200%;
   margin: 20px 20px;
 }
 h2 {
   color: rgb(218, 236, 254);
-  position: absolute;
-  top: 30px;
-  font-size: 24px;
-  float: left;
+  font-size: 150%;
   margin: 20px 20px;
+  display: inline;
 }
 
 p {
-  position: absolute;
-  float: left;
-  font-size: 16px;
-  top: 80px;
+  line-height: 150%;
   margin: 20px 20px;
 }
 

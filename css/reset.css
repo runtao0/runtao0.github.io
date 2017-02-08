@@ -15,10 +15,18 @@ button, article, footer, small {
   background: transparent;
   font-weight: inherit;
   z-index: inherit;
+  line-height: inherit;
 }
 
 ul {
   list-style: none;
+}
+
+a, button {
+  transition: color 0.5s ease;
+}
+a:hover, button:hover {
+  color: rgb(83, 83, 83);
 }
 
 body {
@@ -26,6 +34,8 @@ body {
   color: white;
   font-family: sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
   box-sizing: content-box;
   z-index: 0;
 }
