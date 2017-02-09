@@ -2,6 +2,13 @@ body {
   position: relative;
 }
 
+.error {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: rgb(241, 127, 127);
+}
+
 header {
   position: absolute;
 }

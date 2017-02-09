@@ -5,17 +5,17 @@
     <title>Runtao's Life</title>
     <script type="text/javascript" src="./threejs/three.min.js"></script>
     <script type="text/javascript" src="./threejs/TrackballControls.js"></script>
-    <script type="text/javascript" src="./lib/bundle.js"></script>
     <script type="text/javascript" src="./lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/bundle.js"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/master.css">
     <link rel="icon" href="images/favicon.png">
   </head>
-  <body onload="start()">
+  <body>
     <header>
       <h1>Welcome to Runtao's Game of Life</h1>
-      <h2><a target="_blank" href="http://runtaoyang.com">About Runtao<a/></h2>
-      <h2><a target="_blank" href="http://github.com/runtao0/runtaos_life/">Source Code<a/></h2>
+      <h2><a target="_blank" href="http://runtaoyang.com">About Runtao</a></h2>
+      <h2><a target="_blank" href="http://github.com/runtao0/runtaos_life/">Source Code</a></h2>
       <p>This is a 3D implementation of <strong><a target="_blank" href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway's Game of Life</a></strong> with 2333 rules.<br/>
          This grid is 100x100 and each voxel represents a live cell. <br/>
          <strong>Click</strong> on the grid to make a pattern, <br/>
@@ -30,7 +30,7 @@
          and <strong>right click</strong> to change position
        </p>
     </header>
-    <ul>
+    <ul class="buttons">
       <li><button id="start_button" class="green">Start!</button></li>
       <li><button id="glider_gun">Glider Gun</button></li>
       <li><button id="cross">Cross</button></li>
