@@ -2,16 +2,27 @@ body {
   position: relative;
 }
 
+#sidebar {
+  position: fixed;
+  width: auto;
+  height: 100%;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
 .error {
   position: absolute;
   bottom: 20px;
   left: 20px;
   margin: 0;
-  color: rgb(241, 127, 127);
+  color: rgb(255, 203, 203);
 }
 
 header {
-  position: absolute;
+  position: fixed;
   margin: 0 20px 20px 20px;
 }
 
@@ -46,13 +57,16 @@ h1 {
 h2 {
   color: rgb(195, 225, 255);
   font-size: 150%;
-  margin: 1em 1em 1em 0;
+  line-height: 150%;
   display: inline;
+}
+
+h2 > a {
+  margin: 1em;
 }
 
 p {
   line-height: 150%;
-  margin: 1em 0;
 }
 
 strong {
