@@ -4,13 +4,15 @@ body {
 
 .error {
   position: absolute;
-  bottom: 5%;
-  left: 5%;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
   color: rgb(241, 127, 127);
 }
 
 header {
   position: absolute;
+  margin: 0 20px 20px 20px;
 }
 
 ul {
@@ -32,24 +34,29 @@ button {
   font-size: 100%;
 }
 
+#restart {
+  border: 1px solid rgb(73, 51, 103);
+}
+
 h1 {
+  height: auto;
   font-size: 200%;
-  margin: 20px 20px;
+  line-height: 200%;
 }
 h2 {
-  color: rgb(218, 236, 254);
+  color: rgb(195, 225, 255);
   font-size: 150%;
-  margin: 20px 20px;
+  margin: 1em 1em 1em 0;
   display: inline;
 }
 
 p {
   line-height: 150%;
-  margin: 20px 20px;
+  margin: 1em 0;
 }
 
 strong {
-  color: rgb(218, 236, 254);
+  color: rgb(195, 225, 255);
 }
 
 .red {
@@ -57,6 +64,6 @@ strong {
   border: 1px solid rgb(251, 119, 119);
 }
 .green {
-  color: rgb(181, 250, 188);
+  color: rgb(207, 251, 212);
   border: 1px solid rgb(98, 252, 67);
 }
