@@ -17,9 +17,9 @@ body {
 .error {
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   margin: 0;
-  color: rgb(255, 203, 203);
+  color: rgb(255, 210, 210);
 }
 
 header {
@@ -60,7 +60,6 @@ h2 {
   font-size: 150%;
   line-height: 100%;
   display: inline;
-  top: 10px;
 }
 
 h2 > a {
