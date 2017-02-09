@@ -34,14 +34,14 @@ ul {
 }
 
 li {
-  margin: 20px 20px;
+  margin: 20px 0;
   text-align: center;
 }
 
 button {
   padding: 5px 10px;
   border: 1px solid white;
-  width: 100%;
+  width: 175px;
   font-size: 100%;
 }
 
