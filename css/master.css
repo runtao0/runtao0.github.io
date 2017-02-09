@@ -6,6 +6,7 @@ body {
   position: fixed;
   width: auto;
   height: 100%;
+  padding-top: 10px;
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
@@ -52,13 +53,14 @@ button {
 h1 {
   height: auto;
   font-size: 200%;
-  line-height: 200%;
+  line-height: 150%;
 }
 h2 {
   color: rgb(195, 225, 255);
   font-size: 150%;
-  line-height: 150%;
+  line-height: 100%;
   display: inline;
+  top: 10px;
 }
 
 h2 > a {
